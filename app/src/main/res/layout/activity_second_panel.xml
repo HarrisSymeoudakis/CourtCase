@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context="com.example.harris.courtcase.SecondPanel">
+
+    <!--        EPIKAFELIDA           -->
+
+    <TextView
+        android:id="@+id/Epikefalida"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textSize="40px"
+        android:textColor="#ffff"
+        android:background="#012e89"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        />
+
+    <!--        ARITHMOS DIKHS           -->
+
+
+    <!--        ARITHMOS           -->
+    <TextView
+        android:id="@+id/ArithmosD"
+        android:fontFamily="sans-serif"
+        android:textSize="200px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintVertical_bias="0.44"/>
+
+
+    <!--       BUTTONS       -->
+
+    <!--    ARITMOS DIKHS    -->
+
+    <!--    +    -->
+    <Button
+        android:id="@+id/buttonPlus"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:text="+"
+        android:textSize="50px"
+        android:textColor="#ffff"
+        android:background="#1c56cc"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="146dp"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintVertical_bias="0.28"/>
+
+    <!--    -   -->
+    <Button
+        android:id="@+id/buttonMinus"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:text="-"
+        android:textSize="50px"
+        android:textColor="#ffff"
+        android:background="#1c56cc"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="146dp"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <!--    KATASTASH DIKHS    -->
+
+    <!--    ANABOLH    -->
+    <Button
+        android:id="@+id/ButtonAn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="ΑΝΑΒΟΛΗ"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:textSize="40px"
+        android:background="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="146dp"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <!--    ARGH    -->
+    <Button
+        android:id="@+id/ButtonAr"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="ΑΡΓΗ"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:textSize="40px"
+        android:background="#FFA500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="146dp"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintVertical_bias="0.40" />
+
+    <!--    METRIA    -->
+    <Button
+        android:id="@+id/ButtonMe"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="ΜΕΤΡΙΑ"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:textSize="40px"
+        android:background="#1c56cc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="146dp"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <!--    GRHGORH    -->
+    <Button
+        android:id="@+id/ButtonGr"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="ΓΡΗΓΟΡΗ"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:textSize="40px"
+        android:background="#00FF00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="146dp"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <!--    BACK BUTTON    -->
+    <Button
+        android:id="@+id/ButtonBack"
+        android:layout_width="110dp"
+        android:layout_height="47dp"
+        android:text="ΕΠΙΣΤΡΟΦΗ"
+        android:textSize="25px"
+        android:textColor="#ffff"
+        android:background="#1c56cc"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="146dp"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintVertical_bias="0.9" />
+
+
+</android.support.constraint.ConstraintLayout>
